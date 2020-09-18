@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+
+        android:src="@drawable/androidparty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        tools:ignore="MissingConstraints"
+        android:scaleType="centerCrop"/>
+
+       <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, Mike!"
+        android:fontFamily="sans-serif-light"
+           android:textStyle="italic"
+           android:textSize="35dp"
+        android:padding="30dp"
+        android:textColor="#5DADE2"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:text="From, Erzhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#5B2C6F "
+        android:textStyle="italic"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="sans-serif-light"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+
+
+        tools:ignore="MissingConstraints,UnknownId" />
+</RelativeLayout>
